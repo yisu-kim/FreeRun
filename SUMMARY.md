@@ -12,4 +12,5 @@
   * Untitled
   * Untitled
 * End-to-End 학습으로 자율주행 구현
+  * CNN 모델구성 여기 하윗단으로 넣을까?
 
