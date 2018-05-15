@@ -74,8 +74,8 @@ DC 모터는 L298N 모터 드라이버의 Motor A, Motor B 포트에 각각 2개
 {% hint style="info" %}
 라즈베리파이와 L298N 모터드라이버를 연결은 아래를 참고하세요.
 
-**라즈베리 파이   \(-연결선 -\)  L298N  
-**[\#1,](https://blog.naver.com/PostListByTagName.nhn?blogId=chandong83&encodedTagName=1%2C) 27Pin BCM0           -        ENB  
+**라즈베리 파이   \(-연결선 -\)  L298N**  
+[\#1,](https://blog.naver.com/PostListByTagName.nhn?blogId=chandong83&encodedTagName=1%2C) 27Pin BCM0           -        ENB  
 [\#2,](https://blog.naver.com/PostListByTagName.nhn?blogId=chandong83&encodedTagName=2%2C) 29Pin BCM5           -        IN4  
 [\#3,](https://blog.naver.com/PostListByTagName.nhn?blogId=chandong83&encodedTagName=3%2C) 31Pin BCM6           -        IN3  
 [\#4,](https://blog.naver.com/PostListByTagName.nhn?blogId=chandong83&encodedTagName=4%2C) 33Pin BCM13         -        IN2  
