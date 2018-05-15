@@ -3,7 +3,7 @@
 * [프리런 튜토리얼](README.md)
 * [설치하기](install.md)
 * [무선조종자동차 정비소](undefined/README.md)
-  * [조립](undefined/undefined.md)
+  * [무선조종자동차 조립하기](undefined/undefined.md)
   * [무선방향조종 \(PWM 방식\)](undefined/untitled.md)
 * 트레이닝세트 수집
   * 무선조종차와 PC간 통신구현
