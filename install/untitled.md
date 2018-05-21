@@ -4,8 +4,6 @@ description: Anaconda 가상 환경을 통해 독립된 개발 환경을 구성�
 
 # Anaconda 설치하기
 
-## Anaconda 설치하기
-
 텐서플로우 설치 전, 개발 환경을 깔끔하게 관리해주는 도구를 설치해 봅시다. 가상 환경\(Virtual environment\)은 독립된 개발 환경을 구성할 수 있도록 도와줍니다.
 
 {% tabs %}
@@ -15,7 +13,7 @@ description: Anaconda 가상 환경을 통해 독립된 개발 환경을 구성�
 설치가 완료되었는지 확인하려면 Anaconda Prompt를 실행하고 다음 명령어를 입력하세요.
 
 ```text
-(base) > conda --version
+> conda --version
 conda x.x.x
 ```
 {% endtab %}
@@ -29,28 +27,23 @@ conda x.x.x
 $ bash Anaconda2-x.x.x-Linux-x86_64.sh
 ```
 
+
+
 {% hint style="info" %}
 설치 시 다음 메시지가 나오면 지시사항에 따르세요.
 {% endhint %}
 
-* 라이센스에 동의하기 위해 yes 입력
-
 ```text
+# yes 입력
 Do you accept the license terms? [yes|no]
 >>> yes
-```
 
-* 기본 위치에 설치하려면 Enter
-
-```text
-Anaconda2 will now be installed into this location: (생략)
- >>> (Enter)
-```
-
-* PATH 설정을 위해 yes 입력
-
-```text
-Do you with the installer to prepend the Anaconda2 install location to PATH in your /home/(...)/.bashrc ? [yes|no]
+# Enter
+Anaconda2 will now be installed into this location: /home/pirl/anaconda2
+ >>>
+ 
+# yes 입력
+Do you with the installer to prepend the Anaconda2 install location to PATH in your /home/pirl/.bashrc ? [yes|no]
 >>> yes
 ```
 

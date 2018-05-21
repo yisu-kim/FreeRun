@@ -1,6 +1,8 @@
-# Tensorflow\(GPU\) 설치하기
+---
+description: 오픈 소스 머신 러닝 프레임 워크 TensorFlow를 설치해 봅시다.
+---
 
-## Tensorflow\(GPU\) 설치하기
+# TensorFlow\(GPU\) 설치하기
 
 ### Anaconda 가상환경 설정
 
@@ -15,6 +17,8 @@ $ conda create -n py27
 ```text
 $ source activate py27
 ```
+
+
 
 > **Note** 가상 환경을 종료하고 싶다면 다음 명령어를 입력하세요.
 
@@ -37,31 +41,41 @@ $ conda list -n py27 # 가상 환경 비활성화 시
 
 {% tabs %}
 {% tab title="Windows" %}
-> **Note** 자신의 환경에 맞는 옵션을 선택합니다.
+자신의 환경에 맞는 옵션을 선택합니다.
 
 ![](../.gitbook/assets/cuda_toolkit-001.png)
 
-> **Note** 모든 옵션을 선택하면 아래와 같은 창을 볼 수 있습니다. Base Installer를 다운로드 하세요.
+
+
+모든 옵션을 선택하면 아래와 같은 창을 볼 수 있습니다. Base Installer를 다운로드 하세요.
 
 ![](../.gitbook/assets/cuda_toolkit-002.png)
 {% endtab %}
 
 {% tab title="Linux" %}
-> **Note** 자신의 환경에 맞는 옵션을 선택합니다.
+자신의 환경에 맞는 옵션을 선택합니다.
 
 ![](../.gitbook/assets/cuda_toolkit-003.png)
 
-> **Note** 모든 옵션을 선택하면 아래와 같은 창을 볼 수 있습니다. Base Installer를 다운로드 하세요.
+
+
+모든 옵션을 선택하면 아래와 같은 창을 볼 수 있습니다. Base Installer를 다운로드 하세요.
 
 ![](../.gitbook/assets/cuda_toolkit-004.png)
 
-CUDA Toolkit을를 다운 받은 위치에서 다음 명령을 입력하세요. \(다운 받은 버전에 따라 파일명이 다를 수 있습니다.\)
+
+
+CUDA Toolkit을 다운 받은 위치에서 다음 명령을 입력하세요. \(다운 받은 버전에 따라 파일명이 다를 수 있습니다.\)
 
 ```text
 $ sudo sh cuda_8.0.61_375.26_linux.run
 ```
 
-> **Note** 명령어 입력 후, 라이선스 문구를 건너 뛰려면 `ctrl + c`를 입력하세요. 이후 메시지에 대해서는 다음 지시사항에 따르세요.
+
+
+{% hint style="info" %}
+명령어 입력 후, 라이선스 문구를 건너 뛰려면 ctrl + c를 입력하세요. 이후 메시지에 대해서는 다음 지시사항에 따르세요.
+{% endhint %}
 
 ```text
 # accept 입력

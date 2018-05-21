@@ -4,7 +4,7 @@
 * 설치하기
   * [Python 설치하기](install/python.md)
   * [Anaconda 설치하기](install/untitled.md)
-  * [Tensorflow\(GPU\) 설치하기](install/tensorflow-gpu.md)
+  * [TensorFlow\(GPU\) 설치하기](install/tensorflow-gpu.md)
   * GitHub 오픈소스 활용하기
 * [무선조종자동차 정비소](undefined/README.md)
   * [무선조종자동차 조립하기](undefined/undefined.md)
