@@ -1,7 +1,11 @@
 # Table of contents
 
 * [프리런 튜토리얼](README.md)
-* [설치하기](install.md)
+* 설치하기
+  * [Python 설치하기](install/python.md)
+  * [Anaconda 설치하기](install/untitled.md)
+  * [Tensorflow\(GPU\) 설치하기](install/tensorflow-gpu.md)
+  * GitHub 오픈소스 활용하기
 * [무선조종자동차 정비소](undefined/README.md)
   * [무선조종자동차 조립하기](undefined/undefined.md)
   * [무선방향조종 \(PWM 방식\)](undefined/untitled.md)
