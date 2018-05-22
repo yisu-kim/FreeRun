@@ -1,7 +1,7 @@
 # Table of contents
 
 * [프리런 튜토리얼](README.md)
-* 설치하기
+* [설치하기](install/README.md)
   * [Python 설치하기](install/python.md)
   * [Anaconda 설치하기](install/untitled.md)
   * [TensorFlow\(GPU\) 설치하기](install/tensorflow-gpu.md)
