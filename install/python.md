@@ -2,7 +2,7 @@
 description: 직관적이고 간결한 문법과 다수의 인공지능 API를 보유하고 있는 파이썬을 설치해 봅시다.
 ---
 
-# Python 설치
+# Python 설치하기
 
 {% hint style="info" %}
 본 프로젝트에서는 Python 2.7 버전을 사용합니다.

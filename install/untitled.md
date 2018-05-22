@@ -2,7 +2,7 @@
 description: Anaconda 가상 환경을 통해 독립된 개발 환경을 구성해 봅시다.
 ---
 
-# Anaconda 설치
+# Anaconda 설치하기
 
 텐서플로우 설치 전, 개발 환경을 깔끔하게 관리해주는 도구를 설치해 봅시다. 가상 환경\(Virtual environment\)은 독립된 개발 환경을 구성할 수 있도록 도와줍니다.
 
