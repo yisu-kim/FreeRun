@@ -219,7 +219,7 @@ $ conda list -n tensorflow # 가상 환경 비활성화 시
 {% endtab %}
 
 {% tab title="Windows" %}
-
+\(작성 중\)
 {% endtab %}
 {% endtabs %}
 
