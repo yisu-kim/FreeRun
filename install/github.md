@@ -2,7 +2,7 @@
 description: 본 프로젝트를 구현한 오픈소스를 활용하여 자신만의 프로젝트를 만들어 보세요.
 ---
 
-# GitHub 오픈소스 활용하기
+# 오픈소스 프로젝트 활용하기
 
 ## Git 설치하기
 
@@ -36,7 +36,7 @@ $ sudo apt-get install git
 
 {% embed data="{\"url\":\"https://gitlab.com/minh364/FreeRun\",\"type\":\"link\",\"title\":\"minh364 / FreeRun\",\"description\":\"GitLab.com\",\"icon\":{\"type\":\"icon\",\"url\":\"https://assets.gitlab-static.net/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://assets.gitlab-static.net/assets/gitlab\_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png\",\"width\":128,\"height\":128,\"aspectRatio\":1}}" %}
 
-## 나의 프로젝트 배포하기
+## 나만의 프로젝트 배포하기
 
 
 
