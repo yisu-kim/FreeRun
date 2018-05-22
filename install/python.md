@@ -16,7 +16,7 @@ Linux 환경은 기본적으로 Python이 설치되어 있습니다. 설치된 �
 
 ```text
 $ python --version
-python 3.x.x
+python 2.x.x
 ```
 {% endtab %}
 
