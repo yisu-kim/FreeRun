@@ -20,6 +20,8 @@ description: 시각 정보를 통해 자율주행하는 인공지능 무선조�
 
 앞으로 아래와 같은 자율주행 자동차를 만들어 볼 거예요.
 
+&lt;a href="https://youtu.be/SS7KwGy5rSA" target="\_blank"&gt;&lt;img src="http://img.youtube.com/vi/SS7KwGy5rSA/0.jpg" width="360" height="240" border="10"/&gt;&lt;/a&gt;
+
  [https://youtu.be/SS7KwGy5rSA](https://youtu.be/SS7KwGy5rSA) \(youtube plugin 찾기\)
 
 > 만약 혼자 튜토리얼을 따라하다 문제가 생기면 이곳으로 질문하세요. \(이메일 또는 gitter\) 어떤 질문이든 주저하지 말고 물어보세요!
