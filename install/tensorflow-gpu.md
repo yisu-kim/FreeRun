@@ -2,7 +2,7 @@
 description: 오픈 소스 머신 러닝 프레임워크 TensorFlow를 설치해 봅시다.
 ---
 
-# TensorFlow\(GPU\) 설치하기
+# TensorFlow\(GPU\) 설치
 
 {% hint style="info" %}
 본 프로젝트에서는 tensorflow-gpu-1.4.0 버전을 사용합니다.
@@ -12,11 +12,7 @@ description: 오픈 소스 머신 러닝 프레임워크 TensorFlow를 설치해
 
 ![](../.gitbook/assets/tensorflow-cuda.png)
 
-
-
-
-
-### CUDA Toolkit 설치
+## CUDA Toolkit 설치
 
 [https://developer.nvidia.com/cuda-80-ga2-download-archive](https://developer.nvidia.com/cuda-80-ga2-download-archive) 웹 사이트에서 CUDA Toolkit 8.0 버전을 다운로드하세요.
 
@@ -128,11 +124,7 @@ Cuda compilation tools, release 8.0, V8.0.61
 {% endtab %}
 {% endtabs %}
 
-
-
-
-
-### cuDNN 설치
+## cuDNN 설치
 
 cuDNN은 [https://developer.nvidia.com/rdp/cudnn-archive](https://developer.nvidia.com/rdp/cudnn-archive) 웹사이트에서 회원 가입 후 다운로드할 수 있습니다.
 
@@ -160,11 +152,7 @@ $ sudo dpkg -i libcudnn6_6.0.21-1+cuda8.0_amd64.deb
 {% endtab %}
 {% endtabs %}
 
-
-
-
-
-### Anaconda 가상환경 설정
+## Anaconda 가상환경 설정
 
 앞서 개발 환경 관리를 위해 설치했던 아나콘다를 이용하여 가상 환경을 만들어 봅시다. 콘솔 창에서 다음 명령어를 입력하세요. 
 
@@ -202,11 +190,7 @@ $ conda list # 가상 환경 활성화 시
 $ conda list -n tensorflow # 가상 환경 비활성화 시
 ```
 
-
-
-
-
-### TensorFlow\(GPU\) 설치
+## TensorFlow\(GPU\) 설치
 
 지금까지 설치과정을 잘 따라 오셨습니다. 드디어 텐서플로우를 설치할 차례입니다!
 
