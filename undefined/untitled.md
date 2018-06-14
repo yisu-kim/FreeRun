@@ -138,9 +138,5 @@ conn.close()
 {% endtab %}
 {% endtabs %}
 
-```python
-
-```
-
 
 
