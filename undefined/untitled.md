@@ -133,7 +133,7 @@ conn.close()
 ```
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="소켓 통신을 빼고, 라즈베리파이에 접속해서 입력해주면 움직이는 코드로 축약해야 함" %}
 
 {% endtab %}
 {% endtabs %}
