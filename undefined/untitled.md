@@ -2,10 +2,14 @@
 description: 무선조종기능을 구현해봅시다.
 ---
 
-# 무선방향조종 \(PWM 방식\)
+# 방향조종구현하기 \(PWM 방식\)
 
 {% hint style="info" %}
-실제 차량은 핸들로 조향하지만, 이 무선조종자동차는 앞바퀴와 뒷바퀴가 고정되어있어요. 이런 상태에서 방향을 조절하려면 좌, 우측 바퀴의 속도에 차이를 주거나, 진행 방향을 반대로 설정하면 됩니다. 이러한 방향조종방식을 PWM\(Pulse Width Modulation\)이라고 합니다.
+실제 차량은 핸들로 조향하지만, 이 무선조종자동차는 앞바퀴와 뒷바퀴가 고정되어있어요. 
+
+이런 상태에서 차체의 방향을 조절하려면 좌, 우측 바퀴의 속도에 차이를 주거나, 바퀴의 진행 방향을 반대로 설정하면 됩니다. 
+
+이런 방향조종방식을 PWM\(Pulse Width Modulation\)이라고 합니다.
 {% endhint %}
 
 ![](../.gitbook/assets/image%20%288%29.png)
@@ -18,12 +22,16 @@ ENA가 항상 ON이면 최대 출력으로 모터가 회전하고, OFF를 하면
 
 Free Run project 에서는 Forward, backward의 ch1, ch2값으로 \(100, 100\)을 주었고, Right, Left의 값으로 \(120, 40\), \(40, 120\)을 주어 방향을 제어했습니다.
 
+{% hint style="info" %}
+그럼, 라즈베리파이의 GPIO를 제어할 수 있는 파이썬 패키지 wiringpi를 설치하고,  각 바퀴의 속도를 조절해볼까요?
 
+아래는 앞으로 자동차를 전진하게하는 코드입니다.  
+왼쪽, 오른쪽으로 회전과 정지를 할 수 있는 코드로 수정해보세요.
+{% endhint %}
 
 {% tabs %}
 {% tab title="control\_client.py" %}
 ```python
-import socket
 import wiringpi
 
 # motor
@@ -92,48 +100,15 @@ wiringpi.wiringPiSetup()
 # motor PIN setting
 setPinConfig(ENA, IN1, IN2)
 setPinConfig(ENB, IN3, IN4)
-HOST = 'Local host’
-PORT = 5000
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind((HOST, PORT))
-s.listen(1)
-conn, addr = s.accept()
-print ('Connected by', addr)
 
 while 1:
-    data = conn.recv(1024)
-    if not data: break
-    if 'w' == data:
-        print ('forward')
-        setMotor(CH1, 150, BACKWORD)
-        setMotor(CH2, 150, FORWARD)
-    elif 's' == data:
-        print ('stop')
-        setMotor(CH1, 150, STOP)
-        setMotor(CH2, 150, STOP)
-    elif 'a' == data:
-        # left side reverse
-        print ('left')
-        setMotor(CH1, 120, BACKWORD)
-        setMotor(CH2, 40, FORWARD)
-    elif 'd' == data:
-        # right side reverse
-        print ('right')
-        setMotor(CH1, 40, BACKWORD)
-        setMotor(CH2, 120, FORWARD)
-    elif 'x' == data:
-        print ('back')
-        setMotor(CH1, 150, FORWARD)
-        setMotor(CH2, 150, BACKWORD)
-    else:
-        continue 
-        
-conn.close()
+    setMotor(CH1, 150, BACKWORD)
+    setMotor(CH2, 150, FORWARD)
+
 ```
 {% endtab %}
 
-{% tab title="소켓 통신을 빼고, 라즈베리파이에 접속해서 입력해주면 움직이는 코드로 축약해야 함" %}
+{% tab title="<- 임의로 코드바꿈,  잘 돌아가는지 확인해봐야함" %}
 
 {% endtab %}
 {% endtabs %}
