@@ -6,7 +6,9 @@ description: '무선조종자동차 정비를 마쳤다면, 이제 무선조종�
 
 
 
-신경망 학습을 위한 데이터는 pi camera를 통해 전달받은 이미지에 전,후,좌,후의 방향키를 라벨링하여 모읍니다.
+신경망 학습을 위한 데이터는 pi camera를 통해 전달받은 이미지에 전,후,좌,후의 방향키를 라벨링하여 구축합니다.
+
+![&amp;lt;&#xB77C;&#xBCA8;&#xB9C1;&#xB41C; &#xB370;&#xC774;&#xD130;&amp;gt;](../.gitbook/assets/image%20%284%29.png)
 
 PC에서는 collect\_training\_data.py을 실행하고,  Raspberry pi에서는 control\_client.py와 stream\_client.py을 순차적으로 실행합니다.
 

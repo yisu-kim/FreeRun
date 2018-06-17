@@ -12,7 +12,7 @@ description: 무선조종기능을 구현해봅시다.
 이런 방향조종방식을 PWM\(Pulse Width Modulation\)이라고 합니다.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 L298N 모터드라이브를 보면 ENA, IN1, IN2, IN3, IN4, ENB라 쓰여 있는 핀 포트를 발견할 수 있습니다. 핀 포트 중 ENA는 Enable A를 뜻하며, 모터에 입력되는 전력을 ON/OFF 하는 기능을 합니다. 
 
