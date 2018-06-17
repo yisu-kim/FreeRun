@@ -93,7 +93,6 @@ def setMotor(ch, speed, stat):
     else:
         setMotorControl(ENB, IN3, IN4, speed, stat)
 
-
 # GPIO library setting
 wiringpi.wiringPiSetup()
 
@@ -101,6 +100,9 @@ wiringpi.wiringPiSetup()
 setPinConfig(ENA, IN1, IN2)
 setPinConfig(ENB, IN3, IN4)
 
+
+
+##################### you can Modify CODE here #####################
 while 1:
     setMotor(CH1, 150, BACKWORD)
     setMotor(CH2, 150, FORWARD)
