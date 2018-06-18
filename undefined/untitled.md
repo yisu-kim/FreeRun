@@ -12,11 +12,11 @@ description: 무선조종기능을 구현해봅시다.
 이런 방향조종방식을 PWM\(Pulse Width Modulation\)이라고 합니다.
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 L298N 모터드라이브를 보면 ENA, IN1, IN2, IN3, IN4, ENB라 쓰여 있는 핀 포트를 발견할 수 있습니다. 핀 포트 중 ENA는 Enable A를 뜻하며, 모터에 입력되는 전력을 ON/OFF 하는 기능을 합니다. 
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 ENA가 항상 ON이면 최대 출력으로 모터가 회전하고, OFF를 하면 모터가 회전하지 않아요. 속도를 조절하려면 ON/OFF의 비율을 조절해야 합니다. 이 비율은 hyper parameter\(사용자가 정해주는 값\)로써 0 ~ 255사이의 값을 주면 됩니다.
 
