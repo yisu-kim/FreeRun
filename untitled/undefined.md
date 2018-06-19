@@ -1,7 +1,3 @@
----
-description: '무선조종자동차 정비를 마쳤다면, 이제 무선조종차와 함께 데이터세트를 구축 할 차례입니다!'
----
-
 # 데이터세트 구축
 
 
@@ -10,7 +6,7 @@ description: '무선조종자동차 정비를 마쳤다면, 이제 무선조종�
 
 ![&amp;lt;&#xB77C;&#xBCA8;&#xB9C1;&#xB41C; &#xB370;&#xC774;&#xD130;&amp;gt;](../.gitbook/assets/image%20%284%29.png)
 
-PC에서는 collect\_training\_data.py을 실행하고,  Raspberry pi에서는 control\_client.py와 stream\_client.py을 순차적으로 실행합니다.
+PC에서는 collect\_training\_data.py을 실행하고,  Raspberry pi에서는 control\_client.py와 stream\_client.py을 순차적으로 실행하고, 주행로 위에서 자동차의 방향을 조종하면 collect\_training\_data.py에 의해 자동적으로 라벨링됩니다.
 
 {% tabs %}
 {% tab title=" collect\_training\_data.py" %}
