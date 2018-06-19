@@ -8,7 +8,7 @@
   * [오픈소스 프로젝트 활용하기](install/github.md)
 * [무선조종자동차 정비소](undefined/README.md)
   * [무선조종자동차 조립하기](undefined/undefined.md)
-  * [방향조종구현하기 \(PWM 방식\)](undefined/untitled.md)
+  * [PWM 방식으로 방향조종구현하기](undefined/untitled.md)
   * [무선조종차와 PC간 통신구현](undefined/pc.md)
 * [트레이닝데이터 수집](untitled/README.md)
   * [주행로만들기](untitled/undefined-1.md)
