@@ -34,7 +34,7 @@ $ sudo apt-get install git
 본 프로젝트의 전체 소스 코드는 아래 링크에서 확인할 수 있습니다.
 {% endhint %}
 
-{% embed data="{\"url\":\"https://gitlab.com/minh364/FreeRun\",\"type\":\"link\",\"title\":\"minh364 / FreeRun\",\"description\":\"GitLab.com\",\"icon\":{\"type\":\"icon\",\"url\":\"https://assets.gitlab-static.net/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://assets.gitlab-static.net/assets/gitlab\_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png\",\"width\":128,\"height\":128,\"aspectRatio\":1}}" %}
+{% embed url="https://gitlab.com/minh364/FreeRun" %}
 
 
 

@@ -4,7 +4,7 @@
 각 디바이스의 IP를 알고 사용자가 정한 PORT 번호가 client와 server가 같으면 **같은 와이파이 범위 내에서** 통신할 수 있습니다. 라즈베리 파이 Ubuntu MATE를 설치할 때 와이파이 설정을 해주었다면 별도의 설정 없이 바로 와이파이를 사용할 수 있습니다. PC는 iptime n100mini dongle을 사용하여 와이파이에 접속해주세요.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 자신의 컴퓨터 와이파이 IP 검색하기
 
@@ -13,14 +13,14 @@
 윈도우키 + R을 눌러 실행 탭에 cmd 입력
 
 | `ipconfig` |
-| --- |
+| :--- |
 {% endtab %}
 
 {% tab title="Ubuntu" %}
 터미널 창을 실행
 
 | `hostname -I` |
-| --- |
+| :--- |
 {% endtab %}
 {% endtabs %}
 

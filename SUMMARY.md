@@ -14,5 +14,5 @@
   * [주행로만들기](untitled/undefined-1.md)
   * [데이터세트 구축](untitled/undefined.md)
 * [End-to-End 학습으로 자율주행 구현](end-to-end/README.md)
-  * [CNN 모델구성 여기 하윗단으로 넣을까?](end-to-end/cnn.md)
+  * [CNN 모델구성하기](end-to-end/cnn.md)
 

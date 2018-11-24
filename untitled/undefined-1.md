@@ -5,5 +5,5 @@
 길의 모양은 다양할 수록 좋습니다.
 {% endhint %}
 
-
+![](../.gitbook/assets/image%20%2810%29.png)
 
