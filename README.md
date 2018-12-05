@@ -20,7 +20,8 @@ description: 시각 정보를 통해 자율주행하는 인공지능 무선조�
 
 앞으로 아래와 같은 자율주행 자동차를 만들어 볼 거예요.
 
- [https://youtu.be/SS7KwGy5rSA](https://youtu.be/SS7KwGy5rSA) \(youtube plugin 찾기\)
+ [https://youtu.be/SS7KwGy5rSA](https://youtu.be/SS7KwGy5rSA)
 
-> 만약 혼자 튜토리얼을 따라하다 문제가 생기면 이곳으로 질문하세요. \(이메일 또는 gitter\) 어떤 질문이든 주저하지 말고 물어보세요!
+## 전체 코드
 
+전체 코드는 [여기](https://gitlab.com/minh364/FreeRun)에서 받을 수 있어요.
